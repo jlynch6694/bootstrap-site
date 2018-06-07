@@ -1,3 +1,110 @@
 .first {
+  text-align: center;
+}
+
+.second {
+  font-size: 12px;
+  text-align: center;
+  margin: 4px;
+  color: #76767a
+}
+
+
+
+h1 {
   text-align: left;
+  padding-bottom: 4px;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+
+.pagename {
+ text-align: center;
+ font-size: 28px;
+ font-weight: bold;
+}
+
+.second span {
+  display: inline-block;
+  position: relative;
+}
+
+.second span:before,
+.second span:after {
+ content: "";
+ position: absolute;
+ height: 0px;
+ border: 0.5px solid grey;
+ top: 50%;
+ width: 100px;
+ margin-top: -1px;
+}
+
+.second span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.second span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+.amp {
+  margin: 0 0 0.1em 0;
+}
+.amp span {
+  font-size: 0.5em;
+}
+label {
+  margin: 0px auto;
+  text-align: left;
+}
+
+.button1 {
+  background-color: #f0c14b;
+  width: 100%;
+  color: black;
+  display: inline-block;
+  margin: 0px auto;
+
+}
+
+.a-icon {
+  background-image: url(https://m.media-amazon.com/images/G/01/AUIClients/AmazonUIBaseCSS-sprite_1x-28bd59a…._V2_.png);
+  display: inline-block;
+}
+
+.button2 {
+  background-color: #e7e9ec;
+  color: black;
+  margin-left: 675px;
+}
+
+
+.class1 {
+  font-size: 8px;
+  text-align: center;
+  margin-left: 50px
+}
+
+
+
+.help {
+  font-size: 13px
+}
+
+.border-form {
+  border-style: solid;
+  border-width: thin;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.otherlinks {
+  margin-left: 660px;
+}
+
+.cond, .priv, .helpme {
+  margin: 10px;
+  font-size: 11px;
 }
